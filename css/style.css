@@ -16,6 +16,10 @@
 body{
     background-color: rgb(246, 248, 249);
 }
+
+ul {
+    list-style-image: url(‘’);
+}
 /*project style*/
 
 .main-header{
