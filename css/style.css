@@ -101,3 +101,12 @@ li{
 .sales{
     background-color: rgb(177, 200, 39);
 }
+
+.done{
+    list-style-type:none;
+
+}
+
+.not-done{
+    list-style-type: none; 
+}
