@@ -14,10 +14,12 @@ body{
 ul {
     font-weight: 500;
 }
+
 li{
     margin: 20px;
     font-size: 16px;
     font-weight: 500; 
+    list-style-type:none;
 }
 /*project style*/
 
@@ -76,6 +78,7 @@ li{
     border-radius: 10px;
     color: white;
     font-size: 10px;
+    margin-left: 8px;
 }
 
 .editorial{
@@ -102,11 +105,26 @@ li{
     background-color: rgb(177, 200, 39);
 }
 
-.done{
-    list-style-type:none;
+.task-icon{
+    display: inline-block;
+    border: 1px solid;
+    height: 24px;
+    width: 24px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 22px;
+}
 
+.done{
+    color: green;
 }
 
 .not-done{
-    list-style-type: none; 
+    color:red; 
 }
+.main-list *{
+    margin-right: 8px;
+}
+
+
+/*utility class*/
